@@ -3,7 +3,7 @@ import v4 from "uuid/v4";
 import PropTypes from "prop-types";
 import "./style.css";
 
-const navNames = ["Login", "Browse", "About"];
+const navNames = ["newLogin", "newBrowse", "newAbout"];
 
 class Header extends React.Component {
   navName = navNames.map(nav => (
